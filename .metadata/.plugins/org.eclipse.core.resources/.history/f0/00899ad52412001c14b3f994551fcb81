@@ -1,0 +1,33 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+
+<html>
+    <head>
+	    <style>
+			.all {
+			  margin: auto;
+			  width: 90%;
+			  border: 3px solid #73AD21;
+			  padding: 10px;
+			  text-align:center;
+			}
+	</style>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Home</title>
+    </head>
+    <body>
+        <h1>Welcome to Big Basket</h1>
+        
+        <form action="login" method="post">
+			 <input type="submit" value="Login" />
+	    </form>
+	    
+	    <br>
+	    
+	    <form action="signup" method="post">
+			 <input type="submit" value="Signup" /> <br>
+	    </form>
+    </body>
+</html>
