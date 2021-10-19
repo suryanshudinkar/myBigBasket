@@ -27,15 +27,22 @@ The project is primarily structured in 4 layers:
 
 
 2. API Gateway:
+
   ZUUL (API gateway developed by netflix, integrated into apache ecosystem).
 
 
 3.Microservice layer:
+
   Spring boot (exposed functionalities using REST APIs developed on spring boot)
   We have created 3 microservices: User, Catalog, Order.
+  
     a. User : Creates, authenticates a user during signup/login process.
+    
     b. Catalog: Maintains list of all items available for sale, exposes modification functionality to admin user via RESTful API.
+    
     c. Order: Provides ordering functionality to user, uses order table to provide other functionaities related to order (Eg- view order history).
     
-4. Database layer: RDBMS (MySQL)
+4. Database layer: 
+
+      RDBMS (MySQL)
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
