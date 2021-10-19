@@ -45,4 +45,5 @@ The project is primarily structured in 4 layers:
 4. Database layer: 
 
       RDBMS (MySQL)
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+      
+![alt text](https://github.com/swapnilsaxena11/myBigBasket/blob/master/images/homePage.png)
